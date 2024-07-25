@@ -19,11 +19,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background:transparent;
 }
 
 section {
     height: 90%;
-    background: linear-gradient(120deg, cyan 0%, white 35%, cyan 98%);
+   
+    background:goldenrod;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,8 +44,9 @@ section {
     padding: 10px;
     height: 100%;
     width: 60%;
-    box-shadow: 0px 8px 8px black, 0px -8px 8px black;
-    overflow-y: scroll;
+    /* border:2px solid black; */
+    border-radius: 10px;
+    background:cornsilk
 }
 
 table {
@@ -83,7 +87,9 @@ form {
     padding: 12px;
     color: #000;
     font-weight: bolder;
-    box-shadow: 5px 5px 8px black, inset 0px 0px 8px black;
+    border:2px solid transparent;
+    border-radius: 10px;
+    background:rgb(0, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -91,14 +97,16 @@ form {
 
 .inputs,
 button {
-    width: 75%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: .5vh;
-    background-color: transparent;
-    box-shadow: 0px 0px 10px black;
+    width: 70%;
     text-align: center;
     font-weight: 600;
-    outline: none;
+    /* background:black; */
     cursor: pointer;
+}
+
+#add_button{
+    /* margin-left:30px; */
+    background:yellow;
+    color:black;
+    width:100%;
 }
